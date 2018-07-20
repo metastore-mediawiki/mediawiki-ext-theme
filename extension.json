@@ -35,7 +35,7 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.mw.meta": {
+		"ext.mw.theme": {
 			"scripts": [
 				"scripts/functions.min.js",
 				"scripts/plugins.min.js",
