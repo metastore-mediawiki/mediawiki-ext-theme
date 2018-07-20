@@ -1,0 +1,66 @@
+{
+	"name": "MW_EXT_Theme",
+	"version": "1.0.0",
+	"author": [
+		"[https://kitsune.solar/ Kitsune Solar]",
+		"[https://metastore.pro/ METASTORE]",
+		"..."
+	],
+	"url": "https://metastore.pro/",
+	"descriptionmsg": "mw-ext-theme-desc",
+	"license-name": "[https://www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+	"type": "other",
+	"require": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"MW_EXT_Kernel": "*"
+		}
+	},
+	"config": {
+		"EXT_Meta_FA_Version": {
+			"value": "5.1.0"
+		}
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\METADATA\\MW_EXT_Theme": "MW_EXT_Theme.class.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"MediaWiki\\Extension\\METADATA\\MW_EXT_Theme::onBeforePageDisplay"
+		]
+	},
+	"MessagesDirs": {
+		"MW_EXT_Theme": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.mw.meta": {
+			"scripts": [
+				"scripts/functions.min.js",
+				"scripts/plugins.min.js",
+				"scripts/typography.min.js"
+			],
+			"position": "bottom",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.mw.theme.styles": {
+			"styles": [
+				"styles/theme.css"
+			],
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MW_EXT_Theme/modules"
+	},
+	"manifest_version": 2
+}

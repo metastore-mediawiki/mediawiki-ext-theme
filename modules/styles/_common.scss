@@ -1,0 +1,81 @@
+/*!
+ * @package			common
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------< SCRIPT >---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/**
+ * Common.
+ ---
+ */
+
+html,
+body {
+	font-family: $global-font-family;
+}
+
+a {
+	text-decoration: none;
+	&:hover {
+		color: #f60;
+		text-decoration: none;
+	}
+	&.image {
+		display: inline-block;
+	}
+}
+
+#p-logo a {
+	background-size: contain;
+}
+
+.mw-editsection {
+	float: right;
+}
+
+.wikiEditor-ui-text {
+	textarea {
+		font-family: $editor-font-family;
+		font-size: 1em;
+	}
+}
+
+#toc,
+.toc {
+	min-width: 30em;
+	border: none;
+	background: hsl(0, 0%, 98%);
+	border-left: 3px solid hsl(0, 0%, 86%);
+	padding: 1em;
+	margin: 1em 0;
+	.toctitle {
+		overflow: hidden;
+		h2 {
+			display: block;
+			margin: 0;
+			text-align: left;
+			float: left;
+		}
+		.toctoggle {
+			display: block;
+			float: right;
+		}
+	}
+}
+
+#mw-content-text {
+	.mw-parser-output {
+		font-family: $content-font-family;
+		font-size: $content-font-size;
+	}
+}
+
+.thumb {
+	box-shadow: 0 2px 3px rgba(10, 10, 10, .1);
+}

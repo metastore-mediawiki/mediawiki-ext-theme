@@ -1,0 +1,41 @@
+/*!
+ * @package			template
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------< SCRIPT >---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/**
+ * Template: Information.
+  */
+
+.file-infobox {
+	ol {
+		margin: 0;
+		li {
+			display: grid;
+			grid-template-columns: 10em 1fr;
+			list-style: none;
+			margin: 1px;
+			padding: 0;
+			.item-title,
+			.item-value {
+				display: block;
+				padding: 1em;
+			}
+			.item-title {
+				background: hsl(0, 0%, 96%);
+				font-weight: 700;
+				text-align: right;
+			}
+			.item-value {
+				background: hsl(0, 0%, 100%);
+			}
+		}
+	}
+}

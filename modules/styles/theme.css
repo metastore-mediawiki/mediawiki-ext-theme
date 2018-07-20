@@ -1,0 +1,37 @@
+/*!
+ * @package			variables
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */span.subpages{float:left}#contentSub::after,#contentSub2::after{display:block;content:'';clear:both}/*!
+ * @package			common
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */html,body{font-family:"Roboto","Helvetica","Arial",sans-serif}a{text-decoration:none}a:hover{color:#f60;text-decoration:none}a.image{display:inline-block}#p-logo a{background-size:contain}.mw-editsection{float:right}.wikiEditor-ui-text textarea{font-family:"Fira Code","Fira Mono",monospace;font-size:1em}#toc,.toc{min-width:30em;border:none;background:#fafafa;border-left:3px solid #dbdbdb;padding:1em;margin:1em 0}#toc .toctitle,.toc .toctitle{overflow:hidden}#toc .toctitle h2,.toc .toctitle h2{display:block;margin:0;text-align:left;float:left}#toc .toctitle .toctoggle,.toc .toctitle .toctoggle{display:block;float:right}#mw-content-text .mw-parser-output{font-family:"Roboto","Helvetica","Arial",sans-serif;font-size:inherit}.thumb{box-shadow:0 2px 3px rgba(10,10,10,0.1)}/*!
+ * @package			template
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */.file-infobox ol{margin:0}.file-infobox ol li{display:grid;grid-template-columns:10em 1fr;list-style:none;margin:1px;padding:0}.file-infobox ol li .item-title,.file-infobox ol li .item-value{display:block;padding:1em}.file-infobox ol li .item-title{background:#f5f5f5;font-weight:700;text-align:right}.file-infobox ol li .item-value{background:#fff}/*!
+ * @package			extension
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */#pt-notifications-alert a.mw-echo-notifications-badge,#pt-notifications-message a.mw-echo-notifications-badge{font-size:inherit}.mw-rating{font-family:"Roboto","Helvetica","Arial",sans-serif;height:3em;overflow:hidden}.mw-rating .rating-score{display:inline-block;float:none;font-size:10pt;border-radius:.4em}.mw-rating .rating-section{display:inline-block;position:relative}.mw-rating .rating-section .vote-remove-stars-link{font-size:11px}#mw-edittools-charinsert{padding:.5em;border:1px solid #dbdbdb;background:#f0f0f0;font-size:.9em}#mw-edittools-charinsert a{display:inline-block;white-space:nowrap}#mw-edittools-charinsert .mw-charinsert-header{font-weight:bold}#t-shorturl a{color:#f00 !important;font-weight:bold;text-transform:uppercase}.title-shortlink-container{display:none;float:right}.title-shortlink-container a{display:inline-block}div.mw-highlight{background:#f5f5f5;box-shadow:inset 0 1px 2px rgba(10,10,10,0.1);border:1px solid #dbdbdb;max-height:20rem;margin:1em 0;overflow:auto}div.mw-highlight pre{background:transparent;border:none;box-shadow:none;margin:0;overflow:unset}div.mw-highlight pre span.lineno{border-right:3px solid #dbdbdb;color:#b5b5b5;margin-right:1rem}/*!
+ * @package			widget
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */#disqus_thread{display:block}/*!
+ * @package			typography
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */body.ns-subject.action-view #mw-content-text p{text-align:justify}.text-center{text-align:center}.mw-body .firstHeading,.mw-body .mw-headline{font-family:"Roboto Condensed",sans-serif}.mw-body pre,.mw-body code{font-family:"Fira Code","Fira Mono",monospace;line-height:1.6}.mw-body pre{background:#f5f5f5;border:1px solid #dbdbdb;box-shadow:inset 0 1px 2px rgba(10,10,10,0.1);overflow:auto;white-space:pre}.mw-body ul{list-style-image:none}.mw-body .table-fixed{table-layout:fixed}.mw-body .table-fluid{width:100%}.mw-body th{font-family:"Roboto Condensed",sans-serif}

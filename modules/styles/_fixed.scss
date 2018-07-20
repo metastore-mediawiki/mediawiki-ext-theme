@@ -1,0 +1,8 @@
+span.subpages {
+	float: left;
+}
+
+#contentSub,
+#contentSub2 {
+	@include clearfix();
+}

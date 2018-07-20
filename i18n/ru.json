@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kitsune Solar"
+		]
+	},
+	"group-editor": "Редакторы",
+	"group-editor-member": "{{GENDER:$1|Редактор}}",
+	"grouppage-editor": "{{ns:project}}:Редакторы",
+	"mw-ext-meta-desc": "Интеграция дополнительных элементов в движок MediaWiki. Специально для проектов [METADATA / FOUNDATION https://metadata.foundation/]."
+}

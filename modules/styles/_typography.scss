@@ -1,0 +1,88 @@
+/*!
+ * @package			typography
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+  */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------< SCRIPT >---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/**
+ * Article.
+ */
+body {
+	&.ns-subject {
+		&.action-view {
+			#mw-content-text {
+				//font-family: $font-content;
+				//font-size: 1em;
+				p {
+					text-align: justify;
+				}
+			}
+		}
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+/**
+ * Headers.
+  */
+
+.mw-body {
+	.firstHeading,
+	.mw-headline {
+		font-family: $header-font-family;
+	}
+}
+
+/**
+ * PRE and CODE.
+  */
+
+.mw-body {
+	pre,
+	code {
+		font-family: $font-family-mono;
+		line-height: 1.6;
+	}
+	pre {
+		background: hsl(0, 0%, 96%);
+		border: 1px solid hsl(0, 0%, 86%);
+		box-shadow: inset 0 1px 2px rgba(10, 10, 10, .1);
+		overflow: auto;
+		white-space: pre;
+	}
+}
+
+/**
+ * Lists.
+  */
+
+.mw-body {
+	ul {
+		list-style-image: none;
+	}
+}
+
+/**
+ * Tables.
+  */
+
+.mw-body {
+	.table-fixed {
+		table-layout: fixed;
+	}
+	.table-fluid {
+		width: 100%;
+	}
+	th {
+		font-family: $header-font-family;
+	}
+}
