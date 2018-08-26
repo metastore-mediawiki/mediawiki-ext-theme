@@ -22,11 +22,11 @@
 		}
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\METADATA\\MW_EXT_Theme": "MW_EXT_Theme.class.php"
+		"MediaWiki\\Extension\\MetaStore\\MW_EXT_Theme": "MW_EXT_Theme.class.php"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"MediaWiki\\Extension\\METADATA\\MW_EXT_Theme::onBeforePageDisplay"
+			"MediaWiki\\Extension\\MetaStore\\MW_EXT_Theme::onBeforePageDisplay"
 		]
 	},
 	"MessagesDirs": {
