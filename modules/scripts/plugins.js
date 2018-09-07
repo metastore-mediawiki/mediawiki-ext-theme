@@ -4,15 +4,15 @@
  * WikiEditor. Submit post.
  */
 function extJS_submitPost() {
-	let formItems = [
+	const formItems = [
 		'#editform',
 	];
-	let inputItems = 'input[name=wpSave]';
-	let keyCode01 = 10;
-	let keyCode02 = 13;
+	const inputItems = 'input[name=wpSave]';
+	const keyCode01 = 10;
+	const keyCode02 = 13;
 
 	$(formItems.join()).keypress(function (event) {
-		if (event.keyCode === keyCode01 || (event.ctrlKey && event.keyCode === keyCode02)) {
+		if (event.key === keyCode01 || (event.ctrlKey && event.key === keyCode02)) {
 			$(this).find(inputItems).click();
 			return false;
 		}
