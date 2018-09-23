@@ -35,7 +35,7 @@ body {
  * Headers.
  * ------------------------------------------------------------------------------------------------------------------ */
 
-#mw-content-text {
+.mw-body {
 	@for $i from 1 through 6 {
 		h#{$i} {
 			font-family: $header-font-family;
@@ -49,7 +49,7 @@ body {
  * PRE and CODE.
  * ------------------------------------------------------------------------------------------------------------------ */
 
-#mw-content-text {
+.mw-body {
 	pre,
 	code {
 		font-family: $font-family-mono;
@@ -68,7 +68,7 @@ body {
  * Lists.
  * ------------------------------------------------------------------------------------------------------------------ */
 
-#mw-content-text {
+.mw-body {
 	ul {
 		list-style-image: none;
 	}
@@ -78,7 +78,7 @@ body {
  * Tables.
  * ------------------------------------------------------------------------------------------------------------------ */
 
-#mw-content-text {
+.mw-body {
 	.table-fixed {
 		table-layout: fixed;
 	}
@@ -87,10 +87,11 @@ body {
 	}
 	th {
 		font-family: $header-font-family;
+		text-transform: uppercase;
 	}
 }
 
-#mw-content-text {
+.mw-body {
 	.poem {
 		background-color: #f9f4e6;
 		border: 2px solid #d6d2c5;
